@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Koa2 React streaming render helper",
   "repository": "https://github.com/AndrewGrachov/koa2-streaming-react-render.git",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha",
     "start": "babel-node example/index.js"
