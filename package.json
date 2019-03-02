@@ -2,9 +2,11 @@
   "name": "koa2-streaming-react-render",
   "version": "1.0.0",
   "description": "Koa2 React streaming render helper",
+  "repository": "https://github.com/AndrewGrachov/koa2-streaming-react-render.git",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "start": "babel-node example/index.js"
   },
   "keywords": [
     "koa2",
@@ -12,5 +14,19 @@
     "stream"
   ],
   "author": "Andrew Grachov",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-react": "7.0.0",
+    "@babel/register": "^7.0.0",
+    "chai": "^4.2.0",
+    "koa": "^2.7.0",
+    "mocha": "^6.0.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
 }
