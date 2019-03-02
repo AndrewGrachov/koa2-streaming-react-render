@@ -1,5 +1,7 @@
 # Koa2 react 16+ streaming render helper
 
+Very tiny, zero dependencies
+
 # Why ?
 
 Because React server side streaming render can be tricky with koa2.
