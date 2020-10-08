@@ -1,6 +1,6 @@
 {
   "name": "koa2-streaming-react-render",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Koa2 React streaming render helper",
   "repository": "https://github.com/AndrewGrachov/koa2-streaming-react-render.git",
   "main": "lib/index.js",
