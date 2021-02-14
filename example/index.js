@@ -14,7 +14,12 @@ app.use(ctx => {
     ctx,
     '<html><head></head><body>', // head of document
     stream, // streaming body of document
-    '</body></html>' // document tail
+    '</body></html>', // document tail
+    {
+      onStats: (stats) => {
+        console.log('stats:', stats);
+      }
+    }
   );
 });
 
